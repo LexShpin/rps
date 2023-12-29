@@ -6,8 +6,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    height: 100vh;
+    justify-content: space-between;
+    height: 95vh;
 }
 
 .game {
@@ -23,4 +23,11 @@
 
 .avatar img {
     width: 100px;
+}
+
+#results {
+    display: none;
+    margin-bottom: 3rem;
+    flex-direction: column;
+    align-items: center;
 }
