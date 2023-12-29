@@ -1,5 +1,47 @@
 * {
     box-sizing: border-box;
+    background-color: #092635;
+    color: #ffff;
+}
+
+button img {
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.play-buttons button {
+    border: 5px solid #020e14;
+    border-radius: 10%;
+    width: 100px;
+    height: 100px;
+}
+
+.play-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.start-over-btn {
+    border: none;
+    margin-top: .5rem;
+    padding: 1rem;
+    background-color: #F4CE14;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+}
+
+#results__text {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .container {
